@@ -1,3 +1,5 @@
+// install: npm install
+// usage: node lul.js $ACCESS_KEY $SECRET_KEY text you want me to say
 var fs = require('fs'),
 Ivona = require('ivona-node');
 var exec = require('child_process').exec;
